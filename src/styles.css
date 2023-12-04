@@ -81,6 +81,10 @@ p.small {
   font-size: 15px;
 }
 
+p.small:hover {
+  color: #000000;
+}
+
 hr {
   margin: 2.5rem;
 }
@@ -122,4 +126,8 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+#footerSocials:hover {
+  color: #2c2d33;
 }
