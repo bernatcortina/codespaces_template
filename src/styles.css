@@ -43,6 +43,7 @@ section img.background {
   transform: translate(-50%, 0);
   width: 100vmax;
   z-index: -1;
+  opacity: 0.5;
 }
 
 h1 {
@@ -79,10 +80,6 @@ p.large {
 
 p.small {
   font-size: 15px;
-}
-
-.small:hover {
-  color: #000000;
 }
 
 hr {

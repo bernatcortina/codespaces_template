@@ -21,7 +21,7 @@ import PropTypes from "prop-types";
  * freely use on your site.
  */
 // import image from "../images/woman-with-tablet.jpg";
-import image from "../images/woman-with-tablet.jpg";
+import image from "../images/pc.jpg";
 
 const imageAltText = "Imatge on apareix de perfil i en primer pla el Bernat Cortina";
 

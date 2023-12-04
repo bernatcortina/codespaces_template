@@ -19,9 +19,10 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+// import image from "../images/design-desk.jpeg";
+import image from "../images/bernat.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "bernat cortina perfile face image";
 
 /**
  * Project list
@@ -31,40 +32,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Programació bàsica amb Python",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Introducció a la programació amb Python. Aquest projecte està pensat per als que vulguin iniciar-se en el món de la programació de videojocs.",
+    url: "https://bernatcortina.cat",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Introducció a l'HTML i CSS",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Aprèn com utilitzar HTML i CSS per fer pàgines web. HTML és el llenguatge amb el qual defineixes el contingut i amb CSS, que és el llenguatge de full d’estils, estableixes estil a la pàgina, disseny i molt més.",
+    url: "https://tutorial.bernatcortina.cat/",
   },
   {
-    title: "My Resume Site",
+    title: "Tronca.cat",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Projecte personal i famíliar per donar identitat digital a la família, fent una picada d'ullet a la seva història i tradició.",
+    url: "http://tronca.cat/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "GitHub @bernatcortina",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Respositori personal, on es pot trobar els diferents projectes que he anat fent al llarg dels anys.",
+    url: "https://github.com/bernatcortina",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Portfoli</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "45%", width: "50%", objectFit: "cover", marginLeft: "50%" }}
             alt={imageAltText}
           />
         </div>
