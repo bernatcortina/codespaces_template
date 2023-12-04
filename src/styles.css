@@ -81,7 +81,7 @@ p.small {
   font-size: 15px;
 }
 
-p.small:hover {
+.small:hover {
   color: #000000;
 }
 
